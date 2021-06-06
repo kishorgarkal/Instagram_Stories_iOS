@@ -60,7 +60,7 @@ class CreateStoryTextVC: BaseVC {
     
  
     @IBAction func savePressed(_ sender: Any) {
-        self.createStory()
+       // self.createStory()
     }
     
     @IBAction func closePressed(_ sender: Any) {
@@ -92,10 +92,7 @@ class CreateStoryTextVC: BaseVC {
         self.captionTxtView.layer.borderWidth = 1.0
     }
 
-    private func createStory(){
-        self.showProgressDialog(text: NSLocalizedString("Loading...", comment: "Loading..."))
-       
-    }
+   
     
 }
 extension CreateStoryTextVC  : UITextViewDelegate{

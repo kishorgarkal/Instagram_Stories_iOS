@@ -10,7 +10,7 @@ import UIKit
 import MMPlayerView
 import AVFoundation
 import SDWebImage
-import Async
+
 
 
 class CreateImageStoryVC: BaseVC {
@@ -44,7 +44,7 @@ class CreateImageStoryVC: BaseVC {
     }
  
     @IBAction func sendPressed(_ sender: Any) {
-        self.createStory()
+        
     }
     
     func setupUI(){
@@ -132,8 +132,5 @@ class CreateImageStoryVC: BaseVC {
         }
     }
    
-    private func createStory(){
-        self.showProgressDialog(text: NSLocalizedString("Loading...", comment: "Loading..."))
-       
-    }
+   
 }

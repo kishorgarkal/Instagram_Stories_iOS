@@ -11,7 +11,7 @@ import UIKit
 import AVFoundation
 import SDWebImage
 import IoniconsSwift
-import Async
+
 class PreStoriesItemVC: BaseVC {
     
     var pageIndex : Int = 0
