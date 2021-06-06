@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WGl-YY-fgD">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="sDT-0e-oQH">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" automaticallyAdjustsScrollViewInsets="NO" id="WGl-YY-fgD" customClass="HomeVC" customModule="StoriesDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="47M-TO-KNT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ECO-Gd-iew">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="WGl-YY-fgD" id="VOf-Xq-vJ4"/>
+                                    <outlet property="delegate" destination="WGl-YY-fgD" id="yXj-iy-sKF"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="n0d-Yp-4M3"/>
+                        <color key="backgroundColor" name="Color-1"/>
+                        <constraints>
+                            <constraint firstItem="ECO-Gd-iew" firstAttribute="leading" secondItem="n0d-Yp-4M3" secondAttribute="leading" id="H1U-DV-IrE"/>
+                            <constraint firstItem="n0d-Yp-4M3" firstAttribute="bottom" secondItem="ECO-Gd-iew" secondAttribute="bottom" id="WJT-Hs-wNv"/>
+                            <constraint firstItem="n0d-Yp-4M3" firstAttribute="trailing" secondItem="ECO-Gd-iew" secondAttribute="trailing" id="hu8-Ib-mJM"/>
+                            <constraint firstItem="ECO-Gd-iew" firstAttribute="top" secondItem="n0d-Yp-4M3" secondAttribute="top" id="lbH-jd-L61"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Y2A-dr-zAx">
+                        <barButtonItem key="backBarButtonItem" title=" " id="2Bn-VU-xBD"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="Message" id="NNe-F9-gle">
+                            <connections>
+                                <action selector="chatPressed:" destination="WGl-YY-fgD" id="Z2a-9b-dV7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="contentTblView" destination="ECO-Gd-iew" id="LuE-g7-q62"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5z1-23-fgO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3575" y="1712"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Message" width="25" height="25"/>
+        <namedColor name="Color-1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

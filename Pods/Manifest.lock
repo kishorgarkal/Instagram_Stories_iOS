@@ -1,0 +1,88 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.3.1)
+  - AsyncSwift (2.0.4)
+  - CircleProgressView (1.2.0)
+  - CropViewController (2.6.0)
+  - Floaty (4.1.0)
+  - IoniconsSwift (2.1.4)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JGProgressHUD (2.2)
+  - LinearProgressBar (1.0.2)
+  - MMPlayerView (6.0.2)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SkyFloatingLabelTextField (3.8.0)
+  - SwiftEventBus (2.2.0)
+  - Toast-Swift (4.0.1)
+  - TransitionButton (0.5.3)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 2.3.0)
+  - AsyncSwift
+  - CircleProgressView (~> 1.0)
+  - CropViewController
+  - Floaty (~> 4.1.0)
+  - IoniconsSwift (from `https://github.com/olivinesguerra/IoniconsSwift`, commit `13006f00fb5f41e2bb5ba6b7cedaae8134b8408d`)
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - LinearProgressBar
+  - MMPlayerView
+  - SDWebImage
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SwiftEventBus (from `https://github.com/cesarferreira/SwiftEventBus.git`, tag `3.0.0`)
+  - Toast-Swift (~> 4.0.0)
+  - TransitionButton
+
+SPEC REPOS:
+  trunk:
+    - ActionSheetPicker-3.0
+    - AsyncSwift
+    - CircleProgressView
+    - CropViewController
+    - Floaty
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - LinearProgressBar
+    - MMPlayerView
+    - SDWebImage
+    - SkyFloatingLabelTextField
+    - Toast-Swift
+    - TransitionButton
+
+EXTERNAL SOURCES:
+  IoniconsSwift:
+    :commit: 13006f00fb5f41e2bb5ba6b7cedaae8134b8408d
+    :git: https://github.com/olivinesguerra/IoniconsSwift
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 3.0.0
+
+CHECKOUT OPTIONS:
+  IoniconsSwift:
+    :commit: 13006f00fb5f41e2bb5ba6b7cedaae8134b8408d
+    :git: https://github.com/olivinesguerra/IoniconsSwift
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 3.0.0
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 2f5e3fde6b3205a7318f9338e4ec0f373ce7e75c
+  AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
+  CircleProgressView: 6b5b091d59dc5e5d2fda84e637a40498cdc39937
+  CropViewController: 7093b39ec3cb508531b22d35773e06cecd7378d8
+  Floaty: 1a4e213f3512cf3045ef9cb0c1ff456226d1f66a
+  IoniconsSwift: a9034803dfe59ec48a73c95b812c67afdfa3ed08
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  LinearProgressBar: 619d6f286b608e501f39406557f60cdab3faf910
+  MMPlayerView: e28bace82369bcfbfbe29f9dcd30eeb641a46754
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  SwiftEventBus: 667baca2f107fa0c9c2068950298dbfd6a4111cc
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+  TransitionButton: 36283346e17c64775a1b3bc3a7a72940a367de1f
+
+PODFILE CHECKSUM: c1cbe4214f789eadf73896aab158c6e7a7811ee5
+
+COCOAPODS: 1.10.1
